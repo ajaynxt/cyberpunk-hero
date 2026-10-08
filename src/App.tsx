@@ -207,11 +207,9 @@ export default function App() {
 
       {/* Semantic context for Search Engines (SEO) & Screen Readers */}
       <header className="sr-only">
-        <h1>ajaynxt — Ajay Saini Creative Frontend Engineering &amp; Cyberpunk Web Experience</h1>
+        <h1>Cyberpunk 3D Interactive Web Experience — Creative Engineering by Ajay Saini</h1>
         <p>
-          Official interactive cyberpunk 3D web demo created by Ajay Saini (ajaynxt). Featuring HTML5 Canvas spotlight masking,
-          smooth physics-based parallax lerp easing, concentric telemetry stats arcs, and modern JetBrains Mono typography.
-          Visit the official portfolio at https://ajaynxt.com or connect directly via GitHub @ajaynxt.
+          Featured website work and interactive web development by Ajay Saini (ajaynxt). Discover modern luxury websites, 3D web applications, HTML5 Canvas spotlight masking, smooth physics parallax, and custom UI design at https://ajaynxt.com.
         </p>
       </header>
 
@@ -572,10 +570,10 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/10 hover:border-red-500/40 px-3.5 py-1.5 rounded-full text-[11px] text-white/80 hover:text-white transition-all shadow-lg"
-            title="Designed & Developed by Ajay Saini"
+            title="Website Work designed & developed by Ajay Saini (ajaynxt.com)"
           >
             <span className="w-2 h-2 rounded-full bg-red-500 animate-ping inline-block" />
-            <span className="font-mono tracking-wider">DEV // AJAY SAINI</span>
+            <span className="font-mono tracking-wider">WEBSITE WORK // AJAY SAINI</span>
             <span className="text-white/40">|</span>
             <span className="text-red-400 font-semibold hover:underline">ajaynxt.com ↗</span>
           </a>
@@ -598,7 +596,7 @@ export default function App() {
             {/* Header */}
             <div className="flex items-center gap-2 text-xs font-mono text-red-400 mb-2 tracking-widest uppercase">
               <span className="w-2 h-2 rounded-full bg-red-500 inline-block animate-pulse" />
-              SYSTEM IDENT // AJAY SAINI
+              SYSTEM IDENT // AJAY SAINI — FEATURED WEBSITE WORK
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mb-2 text-white">
@@ -606,7 +604,7 @@ export default function App() {
             </h2>
 
             <p className="text-sm text-gray-300 leading-relaxed mb-6">
-              Creative Web Developer & Video Editor based in India, crafting responsive luxury websites, bespoke UI/UX experiences, and interactive web applications.
+              Featured website work by Ajay Saini. Creative Web Developer &amp; Video Editor crafting responsive luxury websites, interactive 3D web applications, bespoke UI/UX, and high-performance digital experiences.
             </p>
 
             {/* Details Grid */}
