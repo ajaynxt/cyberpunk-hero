@@ -1,49 +1,177 @@
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    background-color: #000;
-    color: #fff;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    @apply bg-[#0a0e1c] text-white antialiased font-sans;
+    font-family: 'Albert Sans', sans-serif;
   }
 }
 
-@layer components {
-  .liquid-glass {
-    background: rgba(255, 255, 255, 0.01);
-    background-blend-mode: luminosity;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border: none;
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
-    position: relative;
-    overflow: hidden;
-  }
+/* Phone Frame Sizing */
+.phone-frame {
+  aspect-ratio: 390 / 844;
+  width: clamp(200px, 75vw, 340px);
+}
 
-  .liquid-glass::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    padding: 1.4px;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.45) 0%,
-      rgba(255, 255, 255, 0.15) 20%,
-      rgba(255, 255, 255, 0) 40%,
-      rgba(255, 255, 255, 0) 60%,
-      rgba(255, 255, 255, 0.15) 80%,
-      rgba(255, 255, 255, 0.45) 100%
-    );
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
+@media (min-width: 768px) {
+  .phone-frame {
+    width: min(25vw, 42vh);
   }
 }
+
+@media (min-width: 1280px) {
+  .phone-frame {
+    width: min(28vw, 48vh, 430px);
+  }
+}
+
+/* Animations (CSS keyframes, all both fill-mode) */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes speedReveal {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) skewX(-8deg);
+    filter: blur(8px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(4%) skewX(-2deg);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes raceLineLeft {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  70% {
+    transform: scaleX(1.1);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+/* Animation Utility Classes */
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-slide-down {
+  animation: fadeSlideDown 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-slide-left {
+  animation: fadeSlideLeft 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-slide-right {
+  animation: fadeSlideRight 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.animate-speed-reveal {
+  animation: speedReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-race-line-left {
+  animation: raceLineLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Delay Utilities */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-800 { animation-delay: 800ms; }
+.delay-900 { animation-delay: 900ms; }
+.delay-1000 { animation-delay: 1000ms; }
+.delay-1100 { animation-delay: 1100ms; }
+.delay-1200 { animation-delay: 1200ms; }
+.delay-1300 { animation-delay: 1300ms; }
+.delay-1400 { animation-delay: 1400ms; }
+.delay-1500 { animation-delay: 1500ms; }
+.delay-1600 { animation-delay: 1600ms; }
