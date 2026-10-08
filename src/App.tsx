@@ -205,11 +205,13 @@ export default function App() {
       {/* Hidden canvas for spotlight mask */}
       <canvas ref={canvasRef} className="hidden" aria-hidden="true" />
 
-      {/* Semantic context for Search Engines (SEO) & Screen Readers */}
+      {/* Semantic context for Search Engines (SEO) & Screen Readers prioritizing ajaynxt.com */}
       <header className="sr-only">
-        <h1>Cyberpunk 3D Interactive Web Experience — Creative Engineering by Ajay Saini</h1>
+        <h1>ajaynxt.com — Official Website Work by Ajay Saini | Creative 3D Web Development</h1>
         <p>
-          Featured website work and interactive web development by Ajay Saini (ajaynxt). Discover modern luxury websites, 3D web applications, HTML5 Canvas spotlight masking, smooth physics parallax, and custom UI design at https://ajaynxt.com.
+          Welcome to ajaynxt.com, the official website work and creative engineering portfolio of Ajay Saini.
+          Specializing in bespoke luxury websites, interactive 3D canvas experiences, spotlight radial masking,
+          smooth physics parallax, and cutting-edge UI/UX. Discover our full body of work and client projects at https://ajaynxt.com.
         </p>
       </header>
 
@@ -222,17 +224,18 @@ export default function App() {
             href="https://ajaynxt.com"
             target="_blank"
             rel="noopener noreferrer"
-            title="Ajay Saini (ajaynxt.com)"
-            className="flex items-center hover:opacity-80 transition-opacity"
+            title="ajaynxt.com — Ajay Saini"
+            className="flex items-center hover:opacity-80 transition-opacity gap-1.5 mr-1"
           >
             <svg
-              className="w-[22px] h-[22px] text-white flex-shrink-0 mr-1"
+              className="w-[22px] h-[22px] text-white flex-shrink-0"
               viewBox="0 0 256 256"
               fill="currentColor"
-              aria-label="Logo"
+              aria-label="ajaynxt.com Logo"
             >
               <path d="M 256 64 L 256 128 L 192.5 128 L 160 95 L 128 64 L 96 95 L 63.5 128 L 64 128 L 128 192 L 128 256 L 64.5 256 L 32 223 L 0 192 L 0 64 L 64 0 L 192 0 Z M 256 192 L 256 256 L 192.5 256 L 160 223 L 128 192 L 128 128 L 192 128 Z" />
             </svg>
+            <span className="text-white text-[13px] font-semibold tracking-tight hidden lg:inline">ajaynxt.com</span>
           </a>
 
           {/* Links */}
@@ -527,7 +530,15 @@ export default function App() {
             className="hero-rise text-[11px] sm:text-xs font-semibold tracking-[0.12em] text-white/90 mb-3 sm:mb-4"
             style={{ animationDelay: '0.15s' }}
           >
-            Gateway to your <span className="italic">augmented self</span>
+            Gateway to your <span className="italic">augmented self</span> ·{' '}
+            <a
+              href="https://ajaynxt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-400 font-semibold hover:underline inline-flex items-center gap-0.5"
+            >
+              ajaynxt.com ↗
+            </a>
           </div>
 
           {/* H1 */}
@@ -551,8 +562,8 @@ export default function App() {
             machine. Not human. Something wonderfully poised between.
           </p>
 
-          {/* CTA "Reserve Now" */}
-          <div className="hero-rise inline-block" style={{ animationDelay: '0.7s' }}>
+          {/* CTA Buttons */}
+          <div className="hero-rise flex flex-wrap items-center gap-3" style={{ animationDelay: '0.7s' }}>
             <button
               onClick={() => setConnectModalOpen(true)}
               className="group relative overflow-hidden bg-white text-gray-900 font-semibold text-sm sm:text-base px-7 sm:px-8 py-3 sm:py-3.5 rounded-full shadow-lg shadow-black/20 transition-transform duration-200 ease-out hover:scale-[1.04] active:scale-95 focus:outline-none"
@@ -560,6 +571,16 @@ export default function App() {
               <span className="relative z-10">Reserve Now</span>
               <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/60 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 pointer-events-none" />
             </button>
+            <a
+              href="https://ajaynxt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-black/70 hover:bg-black backdrop-blur-md text-white font-medium text-sm sm:text-base px-5 sm:px-6 py-3 sm:py-3.5 rounded-full border border-white/20 hover:border-red-500/80 transition-all hover:scale-[1.03] active:scale-95 shadow-lg"
+              title="Explore official website work at ajaynxt.com"
+            >
+              <span>ajaynxt.com</span>
+              <span className="text-red-400 font-bold text-xs">↗</span>
+            </a>
           </div>
         </div>
 
@@ -569,13 +590,12 @@ export default function App() {
             href="https://ajaynxt.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/10 hover:border-red-500/40 px-3.5 py-1.5 rounded-full text-[11px] text-white/80 hover:text-white transition-all shadow-lg"
-            title="Website Work designed & developed by Ajay Saini (ajaynxt.com)"
+            className="flex items-center gap-2.5 bg-black/80 hover:bg-black backdrop-blur-md border border-white/20 hover:border-red-500/80 px-4 py-2 rounded-full text-[12px] text-white transition-all shadow-xl shadow-red-950/30 group"
+            title="Official Portfolio & Website Work: ajaynxt.com"
           >
-            <span className="w-2 h-2 rounded-full bg-red-500 animate-ping inline-block" />
-            <span className="font-mono tracking-wider">WEBSITE WORK // AJAY SAINI</span>
-            <span className="text-white/40">|</span>
-            <span className="text-red-400 font-semibold hover:underline">ajaynxt.com ↗</span>
+            <span className="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping inline-block" />
+            <span className="font-mono tracking-wider font-semibold">OFFICIAL PORTFOLIO //</span>
+            <span className="text-red-400 font-bold group-hover:underline">ajaynxt.com ↗</span>
           </a>
         </div>
       </section>

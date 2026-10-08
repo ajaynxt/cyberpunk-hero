@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Primary Authoritative Site: ajaynxt.com -->
+  <url>
+    <loc>https://ajaynxt.com/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
+      <image:title>ajaynxt.com — Official Portfolio &amp; Website Work by Ajay Saini</image:title>
+      <image:caption>Official creative web development studio and luxury website work by Ajay Saini at https://ajaynxt.com</image:caption>
+    </image:image>
+  </url>
+  <!-- Interactive Demo Experience: demo.ajaynxt.com -->
   <url>
     <loc>https://demo.ajaynxt.com/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://demo.ajaynxt.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://demo.ajaynxt.com/" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://demo.ajaynxt.com/" />
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://ajaynxt.com/assets/brand/ajay-saini-og.jpg</image:loc>
-      <image:title>Cyberpunk 3D Canvas Lab — Interactive Spotlight &amp; Physics Showcase</image:title>
-      <image:caption>Sensory canvas spotlight masking and interactive visual experience by Ajay Saini (AJAY NXT / ajaynxt.com)</image:caption>
-      <image:geo_location>India</image:geo_location>
+      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
+      <image:title>ajaynxt.com — Cyberpunk Interactive 3D Website Work by Ajay Saini</image:title>
+      <image:caption>Featured creative website work with canvas spotlight masking and physics parallax created by Ajay Saini for ajaynxt.com</image:caption>
+    </image:image>
+  </url>
+  <!-- GitHub Pages Mirror -->
+  <url>
+    <loc>https://ajaynxt.github.io/cyberpunk-hero/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
+      <image:title>ajaynxt.com Website Work on GitHub Pages</image:title>
+      <image:caption>Interactive Cyberpunk hero showcase built by Ajay Saini for ajaynxt.com</image:caption>
     </image:image>
   </url>
 </urlset>

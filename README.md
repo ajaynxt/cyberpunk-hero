@@ -1,6 +1,6 @@
-# ajaynxt — Website Work // Cyberpunk Hero Section (Ajay Saini)
+# ajaynxt.com — Official Website Work // Cyberpunk Hero Showcase (Ajay Saini)
 
-A production-quality interactive cyberpunk website work showcase built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS** by **Ajay Saini** ([ajaynxt.com](https://ajaynxt.com)).
+A production-quality interactive cyberpunk website work showcase built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS** by **Ajay Saini** ([https://ajaynxt.com](https://ajaynxt.com)).
 
 🌐 **Live Demo Website:** [https://demo.ajaynxt.com/](https://demo.ajaynxt.com/) *(or [https://ajaynxt.github.io/cyberpunk-hero/](https://ajaynxt.github.io/cyberpunk-hero/))*  
 👤 **Creator Portfolio:** [https://ajaynxt.com](https://ajaynxt.com)

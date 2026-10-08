@@ -1,4 +1,4 @@
-# robots.txt for demo.ajaynxt.com (Cyberpunk 3D Canvas Lab by AJAY NXT)
+# robots.txt for ajaynxt.com and demo.ajaynxt.com
 User-agent: *
 Allow: /
 Allow: /assets/
@@ -19,7 +19,9 @@ User-agent: Applebot
 Allow: /
 
 # Canonical Host
-Host: https://demo.ajaynxt.com
+Host: https://ajaynxt.com
 
 # XML Sitemaps
+Sitemap: https://ajaynxt.com/sitemap.xml
 Sitemap: https://demo.ajaynxt.com/sitemap.xml
+Sitemap: https://ajaynxt.github.io/cyberpunk-hero/sitemap.xml
