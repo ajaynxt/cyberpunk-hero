@@ -1,6 +1,4 @@
-# Technical SEO robots.txt for liquidglass.ajaynxt.com
-# Managed by AJAY NXT (ajaynxt.com)
-
+# robots.txt for demo.ajaynxt.com (Cyberpunk 3D Canvas Lab by AJAY NXT)
 User-agent: *
 Allow: /
 Allow: /assets/
@@ -20,14 +18,8 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
 # Canonical Host
-Host: https://liquidglass.ajaynxt.com
+Host: https://demo.ajaynxt.com
 
 # XML Sitemaps
-Sitemap: https://liquidglass.ajaynxt.com/sitemap.xml
+Sitemap: https://demo.ajaynxt.com/sitemap.xml
