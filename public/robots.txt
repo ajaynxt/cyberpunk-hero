@@ -1,9 +1,9 @@
-# robots.txt for demo.ajaynxt.com
+# robots.txt for liquidglass.ajaynxt.com
 User-agent: *
 Allow: /
 
 # Host
-Host: https://demo.ajaynxt.com
+Host: https://liquidglass.ajaynxt.com
 
 # Sitemaps
-Sitemap: https://demo.ajaynxt.com/sitemap.xml
+Sitemap: https://liquidglass.ajaynxt.com/sitemap.xml

@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://demo.ajaynxt.com/</loc>
+    <loc>https://liquidglass.ajaynxt.com/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260709_152331_bd312d1a-1f20-46b9-9b68-12bcdcf6d53e.png&amp;w=1280&amp;q=85</image:loc>
-      <image:title>Lewis Hamilton Silverstone F1 Hero</image:title>
-      <image:caption>Interactive Formula 1 hero experience featuring Lewis Hamilton, Silverstone circuit, and Scuderia Ferrari SF-26 by Ajay Saini (ajaynxt.com)</image:caption>
+      <image:loc>https://ajaynxt.com/assets/brand/ajay-saini-og.jpg</image:loc>
+      <image:title>Liquid Glass &amp; 3D / 2D Web Experiences | Ajay Saini</image:title>
+      <image:caption>Cutting-edge 3D and 2D interactive web design, modern Liquid Glass UI components, and creative web development by Ajay Saini (AJAY NXT / ajaynxt.com)</image:caption>
     </image:image>
   </url>
 </urlset>
