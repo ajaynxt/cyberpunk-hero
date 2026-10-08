@@ -1,39 +1,42 @@
-# Lewis Hamilton / Silverstone F1 Hero
+# Cyberpunk Hero Section // Ajay Saini
 
-A high-performance Formula 1 hero showcase recreation featuring Lewis Hamilton, the Silverstone circuit, and Scuderia Ferrari SF-26. Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Lucide React**.
+A production-quality cyberpunk-style hero section built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-## Live Demo
+🌐 **Live Demo Website:** [https://ajaynxt.github.io/cyberpunk-hero/](https://ajaynxt.github.io/cyberpunk-hero/)  
+👤 **Creator Portfolio:** [https://ajaynxt.com](https://ajaynxt.com)
 
-- **Web Link**: [https://ajaynxt.github.io/asme-landing-page/](https://ajaynxt.github.io/asme-landing-page/)
-- **Repository**: [https://github.com/ajaynxt/asme-landing-page](https://github.com/ajaynxt/asme-landing-page)
+---
 
-## Features
+## 🚀 Features
 
-- **Three Staggered iPhone Mockups**:
-  - **Screen 1**: Lewis Hamilton hero with driver photograph, dynamic blur backdrop mask, United Kingdom location badge, driver selector, and stylized typography with skew speed reveal.
-  - **Screen 2**: Silverstone circuit overview with live count-up stats for Season Points (227, 374, 4987) with cubic easing and metallic text gradients.
-  - **Screen 3**: Scuderia Ferrari SF-26 chassis display with car render and dual frosted-glass driver cards for Charles Leclerc (#16) and Lewis Hamilton (#44).
-- **Responsive Layout**:
-  - **Desktop (md+)**: Full-screen echelon layout with middle phone offset and staggered animation entrances.
-  - **Mobile (<md)**: Vertical scroll stack of phones with responsive frame scaling.
-- **Interactive Phone Navigation & Menu**:
-  - Formula 1 branded header with profile and glass menu button.
-  - Full-screen animated red-gradient slide-in menu with staggered link animations.
-- **Typography & Theme**:
-  - Google Font: Albert Sans (300 to 800 weights).
-  - Formula 1 color tokens and authentic glassmorphism cards.
+- **Layer 0 (Grid Background)**: Dynamic 48px square SVG grid with mouse parallax lerp easing.
+- **Layer 1 (Base Portrait)**: Ken Burns zoom-out intro animation (`scale(1.12)` → `scale(1)`).
+- **Layer 2 (Cursor Spotlight Reveal)**: Alternate cyberpunk portrait revealed dynamically via an offscreen canvas radial gradient tracking smoothed cursor physics with 0.1 lerp.
+- **Layer 3 (Concentric Stats Arcs)**: High-precision SVG concentric fading arcs with stroke-draw animations, pulsing rings, and pop-in dots.
+- **Layer 4 (Hero Typography)**: JetBrains Mono typography with staggered rise keyframe transitions.
+- **Ajay Saini Integration**:
+  - Interactive **Connect** system modal with portfolio link, email, phone/WhatsApp, and GitHub profile.
+  - Live HUD attribution badge linking to [ajaynxt.com](https://ajaynxt.com).
 
-## Tech Stack
+---
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Lucide React
+## 🛠️ Tech Stack
 
-## Development
+- **Framework**: React 18
+- **Tooling**: Vite + TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React (`Menu`, `X`)
+- **Typography**: JetBrains Mono
+
+---
+
+## 📦 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/ajaynxt/cyberpunk-hero.git
+cd cyberpunk-hero
+
 # Install dependencies
 npm install
 
@@ -43,3 +46,12 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+---
+
+## 📬 Contact & Portfolio
+
+- **Portfolio**: [ajaynxt.com](https://ajaynxt.com)
+- **GitHub**: [@ajaynxt](https://github.com/ajaynxt)
+- **Email**: [ajayx3neha@gmail.com](mailto:ajayx3neha@gmail.com)
+- **Phone / WhatsApp**: [+91 99295 62585](tel:+919929562585)
