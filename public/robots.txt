@@ -1,9 +1,10 @@
-# robots.txt for liquidglass.ajaynxt.com
+# robots.txt for demo.ajaynxt.com and ajaynxt.github.io/cyberpunk-hero
 User-agent: *
 Allow: /
 
 # Host
-Host: https://liquidglass.ajaynxt.com
+Host: https://demo.ajaynxt.com
 
 # Sitemaps
-Sitemap: https://liquidglass.ajaynxt.com/sitemap.xml
+Sitemap: https://demo.ajaynxt.com/sitemap.xml
+Sitemap: https://ajaynxt.github.io/cyberpunk-hero/sitemap.xml

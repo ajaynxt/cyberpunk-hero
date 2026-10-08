@@ -2,7 +2,7 @@
 
 A production-quality cyberpunk-style hero section built with **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-🌐 **Live Demo Website:** [https://ajaynxt.github.io/cyberpunk-hero/](https://ajaynxt.github.io/cyberpunk-hero/)  
+🌐 **Live Demo Website:** [https://demo.ajaynxt.com/](https://demo.ajaynxt.com/) *(or [https://ajaynxt.github.io/cyberpunk-hero/](https://ajaynxt.github.io/cyberpunk-hero/))*  
 👤 **Creator Portfolio:** [https://ajaynxt.com](https://ajaynxt.com)
 
 ---

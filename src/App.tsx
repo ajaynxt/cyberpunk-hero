@@ -205,6 +205,16 @@ export default function App() {
       {/* Hidden canvas for spotlight mask */}
       <canvas ref={canvasRef} className="hidden" aria-hidden="true" />
 
+      {/* Semantic context for Search Engines (SEO) & Screen Readers */}
+      <header className="sr-only">
+        <h1>ajaynxt — Ajay Saini Creative Frontend Engineering &amp; Cyberpunk Web Experience</h1>
+        <p>
+          Official interactive cyberpunk 3D web demo created by Ajay Saini (ajaynxt). Featuring HTML5 Canvas spotlight masking,
+          smooth physics-based parallax lerp easing, concentric telemetry stats arcs, and modern JetBrains Mono typography.
+          Visit the official portfolio at https://ajaynxt.com or connect directly via GitHub @ajaynxt.
+        </p>
+      </header>
+
       {/* Navbar (fixed, z-50) */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between md:justify-center p-4 sm:p-5">
         {/* Desktop (md+): ONE centered pill */}

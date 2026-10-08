@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://liquidglass.ajaynxt.com/</loc>
+    <loc>https://demo.ajaynxt.com/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://ajaynxt.com/assets/brand/ajay-saini-og.jpg</image:loc>
-      <image:title>Liquid Glass &amp; 3D / 2D Web Experiences | Ajay Saini</image:title>
-      <image:caption>Cutting-edge 3D and 2D interactive web design, modern Liquid Glass UI components, and creative web development by Ajay Saini (AJAY NXT / ajaynxt.com)</image:caption>
+      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
+      <image:title>ajaynxt — Cyberpunk Interactive 3D Web Experience by Ajay Saini</image:title>
+      <image:caption>Cutting-edge frontend showcase with canvas spotlight masking, real-time physics lerp easing, and futuristic JetBrains Mono typography created by Ajay Saini (ajaynxt.com)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ajaynxt.github.io/cyberpunk-hero/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_125121_afb71ce9-9c64-4c54-90b5-c89c0764c052.png&amp;w=1920&amp;q=85</image:loc>
+      <image:title>ajaynxt GitHub Pages — Cyberpunk Hero by Ajay Saini</image:title>
+      <image:caption>Interactive Cyberpunk hero section built with React 18, Vite, and Tailwind CSS by Ajay Saini (ajaynxt)</image:caption>
     </image:image>
   </url>
 </urlset>
